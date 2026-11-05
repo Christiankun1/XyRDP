@@ -1,25 +1,25 @@
 {
   "active": true,
-  "hostname": "vegitosssew24-18",
+  "hostname": "vegitosssew24-19",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
     "cpu_threads": 4,
-    "disk_free_gb": 29.3,
+    "disk_free_gb": 26.4,
     "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "VEGITOSSsew24",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-04T23:52:15Z",
-  "expires_at": "2026-11-05T05:34:15Z",
+  "started_at": "2026-11-05T05:45:21Z",
+  "expires_at": "2026-11-05T11:27:21Z",
   "duration_menit": 342,
-  "run_id": "41936936262",
+  "run_id": "41975897998",
   "run_attempt": "1",
-  "run_number": "18",
-  "run_url": "https://github.com/Christiankun1/XyRDP/actions/runs/41936936262",
+  "run_number": "19",
+  "run_url": "https://github.com/Christiankun1/XyRDP/actions/runs/41975897998",
   "mode": "bersih+win10",
   "runtimes": {
     "vc2022x64": "sudah ada",
@@ -38,35 +38,35 @@
     "net35": "sudah ada"
   },
   "persist": {
+    "source": "xyrdp-state.7z.enc",
     "restored": true,
-    "profile": "C:\\Users\\VEGITOSSsew24",
     "files": 77,
-    "source": "xyrdp-state.7z.enc"
+    "profile": "C:\\Users\\VEGITOSSsew24"
   },
   "storage": {
     "status": "ok",
     "mode": "boost-ringan",
-    "before_gb": 28.49,
-    "after_gb": 46.37,
-    "gained_gb": 17.88,
+    "before_gb": 25.63,
+    "after_gb": 43.46,
+    "gained_gb": 17.83,
     "removed_targets": 31,
     "drives": [
       {
+        "used_gb": 106.42,
+        "free_gb": 43.46,
         "size_gb": 149.89,
-        "letter": "C",
-        "used_gb": 103.52,
-        "free_gb": 46.37
+        "letter": "C"
       },
       {
-        "size_gb": 150.0,
-        "letter": "D",
-        "used_gb": 3.0,
-        "free_gb": 147.0
+        "used_gb": 0.13,
+        "free_gb": 219.86,
+        "size_gb": 219.98,
+        "letter": "D"
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
     "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa.",
-    "updated_at": "2026-11-05T00:02:17.8011459Z"
+    "updated_at": "2026-11-05T05:52:58.8871456Z"
   },
   "fps_boost": {
     "status": "ok",
@@ -82,44 +82,28 @@
     ],
     "skipped": [],
     "applied_count": 8,
-    "elapsed_sec": 2.3,
+    "elapsed_sec": 1.8,
     "note": "Tweak rendering RDP & scheduler OS. Tidak menaikkan FPS game 3D tanpa GPU fisik; Mesa3D/WARP tetap dipakai.",
-    "updated_at": "2026-11-05T00:02:20.6567527Z"
+    "updated_at": "2026-11-05T05:53:00.9825428Z"
   },
   "media": {
-    "microphone": "rdp_capture_enabled",
     "wallpaper": "xyverse_configured_for_user_logon",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "audio_output": "rdp_playback_enabled"
+    "audio_output": "rdp_playback_enabled",
+    "microphone": "rdp_capture_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
   },
   "grafis": {
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
-    "mode": "software",
-    "path": "C:\\XyRDP\\grafis\\mesa-x64",
     "adapters": "Microsoft Hyper-V Video",
-    "vulkan": "lavapipe 1.3 (CPU)",
-    "mesa": "26.2.6"
+    "path": "C:\\XyRDP\\grafis\\mesa-x64",
+    "mode": "software",
+    "mesa": "26.2.6",
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "vulkan": "lavapipe 1.3 (CPU)"
   },
   "games": {
     "fivem": {
       "sound": true,
       "status": true
-    },
-    "ets2": {
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
-      "status": "ready"
-    },
-    "minecraft_java": {
-      "prismlauncher": true,
-      "tlauncher_jar": true,
-      "status": "ready",
-      "opengl46": false,
-      "official_exe": true
-    },
-    "roblox": {
-      "status": "installer_ready",
-      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
-      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass."
     },
     "blender": {
       "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
@@ -127,6 +111,22 @@
     },
     "memu": {
       "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
+      "status": "ready"
+    },
+    "roblox": {
+      "status": "installer_ready",
+      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
+      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass."
+    },
+    "minecraft_java": {
+      "status": "ready",
+      "prismlauncher": true,
+      "opengl46": false,
+      "tlauncher_jar": true,
+      "official_exe": true
+    },
+    "ets2": {
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
       "status": "ready"
     }
   },
@@ -140,8 +140,8 @@
   },
   "tools_hub": {
     "auto_start": true,
-    "installed": true,
-    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe"
+    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
+    "installed": true
   },
   "xydesk": {
     "host": "ok",
@@ -162,20 +162,20 @@
   },
   "akses": {
     "tunnel": {
-      "host": "100.122.169.127",
+      "address": "100.97.75.43:3389",
+      "host": "100.97.75.43",
       "selftest": "ok",
-      "address": "100.122.169.127:3389",
       "status": "ok",
       "port": 3389,
       "outside": "tailscale"
     },
     "mode": "tailscale",
     "tailscale": {
-      "hostname": "VEGITOSSsew24",
-      "magicdns": "vegitosssew24.tail5fafa8.ts.net.",
       "status": "ok",
-      "ip": "100.122.169.127",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "100.97.75.43",
+      "magicdns": "vegitosssew24.tail5fafa8.ts.net.",
+      "hostname": "VEGITOSSsew24"
     }
   }
 }
